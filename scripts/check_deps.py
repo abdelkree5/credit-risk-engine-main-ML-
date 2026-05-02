@@ -1,7 +1,8 @@
 import importlib
-for pkg in ('fastapi','uvicorn','streamlit'):
+
+for pkg in ("fastapi", "uvicorn", "streamlit"):
     try:
         importlib.import_module(pkg)
-        print(pkg, 'OK')
+        print(pkg, "OK")
     except Exception:
-        print(pkg, 'MISSING')
+        print(pkg, "MISSING")

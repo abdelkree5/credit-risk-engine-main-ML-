@@ -1,4 +1,5 @@
 """Inference Engine — loads model and runs predictions."""
+
 import sys, logging
 from pathlib import Path
 import numpy as np
@@ -31,6 +32,7 @@ class Predictor:
 
     def predict(self, data: dict) -> dict:
         import time
+
         t0 = time.time()
         df = pd.DataFrame([data])
         X = self.engineer.transform(df)
@@ -38,11 +40,13 @@ class Predictor:
         risk_score = float(proba[1])
         category, decision = _categorize(risk_score)
         return {
-            "risk_score":      round(risk_score, 4),
-            "risk_probability": {"low": round(float(proba[0]), 4),
-                                 "high": round(float(proba[1]), 4)},
-            "risk_category":   category,
-            "decision":        decision,
-            "confidence":      round(float(max(proba)), 4),
-            "processing_ms":   round((time.time() - t0) * 1000, 2),
+            "risk_score": round(risk_score, 4),
+            "risk_probability": {
+                "low": round(float(proba[0]), 4),
+                "high": round(float(proba[1]), 4),
+            },
+            "risk_category": category,
+            "decision": decision,
+            "confidence": round(float(max(proba)), 4),
+            "processing_ms": round((time.time() - t0) * 1000, 2),
         }

@@ -1,4 +1,5 @@
 """Main Training Script — run from project root."""
+
 import sys, json, logging, yaml
 from pathlib import Path
 
@@ -64,18 +65,21 @@ def main():
     y = df[target].values
 
     X_train_raw, X_test_raw, y_train, y_test = train_test_split(
-        X_raw, y,
+        X_raw,
+        y,
         test_size=config["data"]["test_size"],
         random_state=config["data"]["random_state"],
         stratify=y,
     )
-    logger.info(f"Train: {len(y_train)} | Test: {len(y_test)} | "
-                f"Default rate: {y.mean():.2%}")
+    logger.info(
+        f"Train: {len(y_train)} | Test: {len(y_test)} | "
+        f"Default rate: {y.mean():.2%}"
+    )
 
     # ── Feature Engineering ─────────────────────────────────────────────────
     engineer = FeatureEngineer()
     X_train = engineer.fit_transform(X_train_raw)
-    X_test  = engineer.transform(X_test_raw)
+    X_test = engineer.transform(X_test_raw)
     engineer.save(str(model_dir / "feature_engineer.joblib"))
 
     # ── Training ─────────────────────────────────────────────────────────────
@@ -88,7 +92,7 @@ def main():
 
     # ── Fairness ─────────────────────────────────────────────────────────────
     y_pred = trainer.best_model.predict(X_test)
-    ages   = X_test_raw["age"].values
+    ages = X_test_raw["age"].values
     fairness = FairnessAnalyzer().full_report(y_test, y_pred, ages)
     report_path = model_dir / "fairness_report.json"
     report_path.write_text(json.dumps(fairness, indent=2))

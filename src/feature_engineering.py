@@ -1,4 +1,5 @@
 """Feature Engineering Module for Credit Risk Engine."""
+
 import numpy as np
 import pandas as pd
 import joblib
@@ -8,10 +9,16 @@ from pathlib import Path
 logger = logging.getLogger(__name__)
 
 FEATURE_NAMES = [
-    "age", "income", "credit_score", "employment_years",
-    "debt_amount", "payment_history",
-    "debt_to_income", "income_stability",
-    "payment_risk_score", "credit_utilization",
+    "age",
+    "income",
+    "credit_score",
+    "employment_years",
+    "debt_amount",
+    "payment_history",
+    "debt_to_income",
+    "income_stability",
+    "payment_risk_score",
+    "credit_utilization",
     "age_income_interaction",
 ]
 
@@ -21,6 +28,7 @@ class FeatureEngineer:
 
     def __init__(self):
         from sklearn.preprocessing import StandardScaler
+
         self.scaler = StandardScaler()
         self.feature_names = FEATURE_NAMES
         self._fitted = False

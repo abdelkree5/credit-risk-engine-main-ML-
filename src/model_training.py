@@ -1,11 +1,14 @@
 """Multi-model Training Pipeline with MLflow tracking."""
+
 import sys, logging, json
 from pathlib import Path
 import numpy as np
 import joblib
+
 try:
     import mlflow
     import mlflow.sklearn
+
     MLFLOW_AVAILABLE = True
 except Exception:
     MLFLOW_AVAILABLE = False
@@ -14,6 +17,7 @@ from sklearn.model_selection import StratifiedKFold, cross_val_score
 
 try:
     from imblearn.over_sampling import SMOTE
+
     SMOTE_AVAILABLE = True
 except Exception:
     SMOTE_AVAILABLE = False
@@ -32,8 +36,12 @@ logger = logging.getLogger(__name__)
 class ModelTrainer:
     """Train XGBoost / LightGBM / CatBoost with SMOTE + MLflow tracking."""
 
-    def __init__(self, params: dict, output_dir: str = "models",
-                 experiment: str = "credit-risk-engine"):
+    def __init__(
+        self,
+        params: dict,
+        output_dir: str = "models",
+        experiment: str = "credit-risk-engine",
+    ):
         self.params = params
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(parents=True, exist_ok=True)
@@ -48,23 +56,29 @@ class ModelTrainer:
         if name == "xgboost":
             try:
                 from xgboost import XGBClassifier as _XGB
+
                 return _XGB(**p, eval_metric="logloss", use_label_encoder=False)
             except Exception:
                 from sklearn.linear_model import LogisticRegression
+
                 return LogisticRegression(max_iter=200)
         if name == "lightgbm":
             try:
                 from lightgbm import LGBMClassifier as _LGBM
+
                 return _LGBM(**p)
             except Exception:
                 from sklearn.ensemble import RandomForestClassifier
+
                 return RandomForestClassifier(n_estimators=50)
         if name == "catboost":
             try:
                 from catboost import CatBoostClassifier as _Cat
+
                 return _Cat(**p)
             except Exception:
                 from sklearn.ensemble import GradientBoostingClassifier
+
                 return GradientBoostingClassifier()
         raise ValueError(f"Unknown model: {name}")
 
@@ -80,8 +94,10 @@ class ModelTrainer:
             try:
                 smote = SMOTE(random_state=42)
                 X_res, y_res = smote.fit_resample(X_train, y_train)
-                logger.info(f"SMOTE: {X_train.shape[0]} → {X_res.shape[0]} samples | "
-                            f"default rate: {y_res.mean():.2%}")
+                logger.info(
+                    f"SMOTE: {X_train.shape[0]} → {X_res.shape[0]} samples | "
+                    f"default rate: {y_res.mean():.2%}"
+                )
             except Exception:
                 X_res, y_res = X_train, y_train
         else:
@@ -95,13 +111,17 @@ class ModelTrainer:
                 run_ctx = mlflow.start_run(run_name=name)
             else:
                 from contextlib import nullcontext
+
                 run_ctx = nullcontext()
 
             with run_ctx:
                 cv_auc = cross_val_score(
-                    model, X_res, y_res,
+                    model,
+                    X_res,
+                    y_res,
                     cv=StratifiedKFold(5, shuffle=True, random_state=42),
-                    scoring="roc_auc", n_jobs=-1,
+                    scoring="roc_auc",
+                    n_jobs=-1,
                 ).mean()
 
                 model.fit(X_res, y_res)
@@ -137,7 +157,9 @@ class ModelTrainer:
         # Save best model
         best_path = self.output_dir / "best_model.joblib"
         joblib.dump(self.best_model, best_path)
-        logger.info(f"🏆 Best: {self.best_name} (AUC={self.best_auc:.4f}) → {best_path}")
+        logger.info(
+            f"🏆 Best: {self.best_name} (AUC={self.best_auc:.4f}) → {best_path}"
+        )
 
         # Save results summary
         summary = {

@@ -20,7 +20,7 @@ def test_predict_schema():
         "credit_score": 720,
         "employment_years": 5,
         "debt_amount": 25000,
-        "payment_history": 12
+        "payment_history": 12,
     }
     r = client.post("/predict", json=payload)
     # model may be loaded or not depending on environment; ensure no server error
