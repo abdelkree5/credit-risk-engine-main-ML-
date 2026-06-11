@@ -5,7 +5,7 @@ import subprocess
 import sys
 
 # Path to ai_env Python
-ai_env_python = r"C:\Users\MostafaAliMohamedElS\miniconda3\envs\ai_env\python.exe"
+ai_env_python = r"C:\Users\AbdelkreemAliMohamedElS\miniconda3\envs\ai_env\python.exe"
 
 # Run uvicorn
 result = subprocess.run(

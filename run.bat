@@ -11,7 +11,7 @@ set "APP_MODE=%APP_MODE%"
 if "%APP_MODE%"=="" set "APP_MODE=auto"
 
 set "API_PYTHON=%API_PYTHON%"
-if "%API_PYTHON%"=="" set "API_PYTHON=C:\Users\MostafaAliMohamedElS\miniconda3\envs\ai_env\python.exe"
+if "%API_PYTHON%"=="" set "API_PYTHON=C:\Users\AbdelkreemAliMohamedElS\miniconda3\envs\ai_env\python.exe"
 
 set "DASHBOARD_PYTHON=%DASHBOARD_PYTHON%"
 if "%DASHBOARD_PYTHON%"=="" set "DASHBOARD_PYTHON=.venv_dashboard\Scripts\python.exe"

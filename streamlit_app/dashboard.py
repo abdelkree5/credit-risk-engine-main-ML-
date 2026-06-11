@@ -528,6 +528,6 @@ CSV Data → DataIngestion → DataProcessor → FeatureEngineer
 # ─── Footer ──────────────────────────────────────────────────────────────────
 st.divider()
 st.markdown(
-    "<p style='text-align:center;color:gray'>© 2026 Credit Risk Engine | Powered by Mostafa Ali Mohamed Elsharqawi</p>",
+    "<p style='text-align:center;color:gray'>© 2026 Credit Risk Engine | Powered by Abdelkreem Ali Mohamed Frahat</p>",
     unsafe_allow_html=True,
 )

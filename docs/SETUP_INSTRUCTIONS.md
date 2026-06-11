@@ -2,7 +2,7 @@
 
 **Project**: AI-Powered Credit Risk Scoring Engine  
 **Version**: 1.0.0  
-**Developer**: Mostafa Ali Mohamed Elsharqawi  
+**Developer**: Abdelkreem Ali Mohamed Frahat  
 **Last Updated**: May 2, 2026
 
 ---
@@ -48,7 +48,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/mstfyshrqawy520-alt/credit-risk-engine.git
+git clone https://github.com/abdelkree5/credit-risk-engine.git
 
 # Navigate to project directory
 cd credit-risk-engine
@@ -147,8 +147,8 @@ project:
   version: "1.0.0"
 
 developer:
-  name: "Mostafa Ali Mohamed Elsharqawi"
-  email: "mostafa.elsharqawi@gmail.com"
+  name: "Abdelkreem Ali Mohamed Frahat"
+  email: "Abdelkreem.Frahat@gmail.com"
 
 data:
   path: "data/credit_data.csv"
@@ -408,7 +408,7 @@ dir models     # Windows
 
 ```bash
 # Clone, setup, and run everything
-git clone https://github.com/mstfyshrqawy520-alt/credit-risk-engine.git
+git clone https://github.com/abdelkree5/credit-risk-engine.git
 cd credit-risk-engine
 python -m venv venv
 
@@ -432,14 +432,14 @@ python scripts/train.py
 
 ### Contact Developer
 
-- **Email**: mostafa.elsharqawi@gmail.com
+- **Email**: Abdelkreem.Frahat@gmail.com
 - **Phone**: +201276913999
-- **LinkedIn**: [Mostafa Ali Mohamed Elsharqawi](https://www.linkedin.com/in/mostafa-ali-66b3a7352/)
+- **LinkedIn**: [Abdelkreem Ali Mohamed Frahat](https://www.linkedin.com/in/abdelkreem-frahat-160g/)
 
 ### Report Issues
 
-- 🐛 GitHub Issues: https://github.com/mstfyshrqawy520-alt/credit-risk-engine/issues
-- 📧 Direct Email: mostafa.elsharqawi@gmail.com
+- 🐛 GitHub Issues: https://github.com/abdelkree5/credit-risk-engine/issues
+- 📧 Direct Email: Abdelkreem.Frahat@gmail.com
 
 ---
 
@@ -449,9 +449,9 @@ python scripts/train.py
 - [PROJECT_INFO.md](PROJECT_INFO.md) - Technical details
 - [AUTHOR.md](AUTHOR.md) - Developer information
 - [API Documentation](http://localhost:8000/docs) - Interactive API docs
-- [GitHub Repository](https://github.com/mstfyshrqawy520-alt/credit-risk-engine)
+- [GitHub Repository](https://github.com/abdelkree5/credit-risk-engine)
 
 ---
 
-**© 2026 Mostafa Ali Mohamed Elsharqawi**  
+**© 2026 Abdelkreem Ali Mohamed Frahat**  
 _Made with ❤️ and ☕_

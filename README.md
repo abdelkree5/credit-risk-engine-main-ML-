@@ -238,28 +238,37 @@ MIT License - see LICENSE file for details
 
 For issues & questions:
 
-- GitHub Issues: [Report a bug](https://github.com/mstfyshrqawy520-alt/credit-risk-engine/issues)
-- Email: mostafa.elsharqawi@gmail.com
+- GitHub Issues: [Report a bug](https://github.com/abdelkree5/credit-risk-engine/issues)
+- Email: Abdelkreem.Frahat@gmail.com
 - Phone: +201276913999
-- LinkedIn: [Mostafa Ali Mohamed Elsharqawi](https://www.linkedin.com/in/mostafa-ali-66b3a7352/)
-- GitHub: https://github.com/mstfyshrqawy520-alt
-- Portfolio: https://mstfyshrqawy520-alt.github.io/my-Portfolio/
+- LinkedIn: [Abdelkreem Ali Mohamed Frahat](https://www.linkedin.com/in/abdelkreem-frahat-160g/)
+- GitHub: https://github.com/abdelkree5
+- Portfolio: https://abdelkree5.github.io/my-Portfolio/
 
 ---
 
 ## 👨‍💻 Developer
 
-**MOSTAFA ALI MOHAMED ELSHARQAWI**
+**Abdelkreem ALI MOHAMED Frahat**
 
 - 📍 **Location**: Menoufia, Egypt
-- 📧 **Email**: mostafa.elsharqawi@gmail.com
+- 📧 **Email**: Abdelkreem.Frahat@gmail.com
 - 📱 **Phone**: +201276913999
-- 💼 **LinkedIn**: [Mostafa Ali Mohamed Elsharqawi](https://www.linkedin.com/in/mostafa-ali-66b3a7352/)
-- 🐙 **GitHub**: [@mstfyshrqawy520-alt](https://github.com/mstfyshrqawy520-alt)
-- 🌐 **Portfolio**: [My Portfolio](https://mstfyshrqawy520-alt.github.io/my-Portfolio/)
+- 💼 **LinkedIn**: [Abdelkreem Ali Mohamed Frahat](https://www.linkedin.com/in/abdelkreem-frahat-160g/)
+- 🐙 **GitHub**: [@abdelkree5](https://github.com/abdelkree5)
+- 🌐 **Portfolio**: [My Portfolio](https://abdelkree5.github.io/my-Portfolio/)
 
 **Specializations**: Machine Learning | Data Science | AI Engineering | Credit Risk Modeling
 
 ---
 
-**Made with ❤️ by Mostafa Ali Mohamed Elsharqawi | ML Engineer | Data Scientist**
+**Made with ❤️ by Abdelkreem Ali Mohamed Frahat | ML Engineer | Data Scientist**
+
+
+---
+
+## 👨‍💻 Developer
+**Developed by abdelkreem abdelhaleem frahat**
+
+* **LinkedIn:** [abdelkreem abdelhaleem frahat](https://www.linkedin.com/in/abdelkreem-frahat-160g/)
+* **Phone:** 01025453847

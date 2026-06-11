@@ -65,7 +65,7 @@ See → **[CONTRIBUTORS.md](CONTRIBUTORS.md)**
 ### Installation
 
 ```bash
-git clone https://github.com/mstfyshrqawy520-alt/credit-risk-engine.git
+git clone https://github.com/abdelkree5/credit-risk-engine.git
 cd credit-risk-engine
 pip install -r requirements.txt
 ```
@@ -104,16 +104,16 @@ streamlit run streamlit_app/dashboard.py
 
 ## 👤 Developer Information
 
-**Name**: Mostafa Ali Mohamed Elsharqawi  
-**Email**: mostafa.elsharqawi@gmail.com  
+**Name**: Abdelkreem Ali Mohamed Frahat  
+**Email**: Abdelkreem.Frahat@gmail.com  
 **Phone**: +201276913999  
 **Location**: Menoufia, Egypt
 
 **Links**:
 
-- 💼 [LinkedIn Profile](https://www.linkedin.com/in/mostafa-ali-66b3a7352/)
-- 🐙 [GitHub Profile](https://github.com/mstfyshrqawy520-alt)
-- 🌐 [Personal Portfolio](https://mstfyshrqawy520-alt.github.io/my-Portfolio/)
+- 💼 [LinkedIn Profile](https://www.linkedin.com/in/abdelkreem-frahat-160g/)
+- 🐙 [GitHub Profile](https://github.com/abdelkree5)
+- 🌐 [Personal Portfolio](https://abdelkree5.github.io/my-Portfolio/)
 
 ---
 
@@ -175,14 +175,14 @@ streamlit run streamlit_app/dashboard.py
 
 ### Quick Contact
 
-- **Email**: mostafa.elsharqawi@gmail.com
+- **Email**: Abdelkreem.Frahat@gmail.com
 - **Phone**: +201276913999
 - **Location**: Menoufia, Egypt
 
 ### Report Issues
 
-- 🐛 **Bugs**: [GitHub Issues](https://github.com/mstfyshrqawy520-alt/credit-risk-engine/issues)
-- 📧 **Email**: mostafa.elsharqawi@gmail.com
+- 🐛 **Bugs**: [GitHub Issues](https://github.com/abdelkree5/credit-risk-engine/issues)
+- 📧 **Email**: Abdelkreem.Frahat@gmail.com
 
 ### Response Times
 
@@ -256,15 +256,15 @@ requirements.txt       ~2 KB     (Dependencies)
 
 ### Primary Contact
 
-**Name**: Mostafa Ali Mohamed Elsharqawi  
-**Email**: mostafa.elsharqawi@gmail.com  
+**Name**: Abdelkreem Ali Mohamed Frahat  
+**Email**: Abdelkreem.Frahat@gmail.com  
 **Phone**: +201276913999
 
 ### Professional Networks
 
-- 💼 LinkedIn: [@mostafa-ali-66b3a7352](https://www.linkedin.com/in/mostafa-ali-66b3a7352/)
-- 🐙 GitHub: [@mstfyshrqawy520-alt](https://github.com/mstfyshrqawy520-alt)
-- 🌐 Portfolio: [Personal Website](https://mstfyshrqawy520-alt.github.io/my-Portfolio/)
+- 💼 LinkedIn: [@Abdelkreem-ali-66b3a7352](https://www.linkedin.com/in/abdelkreem-frahat-160g/)
+- 🐙 GitHub: [@abdelkree5](https://github.com/abdelkree5)
+- 🌐 Portfolio: [Personal Website](https://abdelkree5.github.io/my-Portfolio/)
 
 ---
 
@@ -274,7 +274,7 @@ requirements.txt       ~2 KB     (Dependencies)
 
 ---
 
-**© 2026 Mostafa Ali Mohamed Elsharqawi | All Rights Reserved**
+**© 2026 Abdelkreem Ali Mohamed Frahat | All Rights Reserved**
 
 _Last Updated: May 2, 2026_  
 _Documentation Version: 1.0.0_

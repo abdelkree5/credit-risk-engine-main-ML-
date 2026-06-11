@@ -6,13 +6,13 @@ project:
   status: "Production Ready"
 
 developer:
-  name: "Mostafa Ali Mohamed Elsharqawi"
-  email: "mostafa.elsharqawi@gmail.com"
+  name: "Abdelkreem Ali Mohamed Frahat"
+  email: "Abdelkreem.Frahat@gmail.com"
   phone: "+201276913999"
   location: "Menoufia, Egypt"
-  linkedin: "https://www.linkedin.com/in/mostafa-ali-66b3a7352/"
-  github: "https://github.com/mstfyshrqawy520-alt"
-  portfolio: "https://mstfyshrqawy520-alt.github.io/my-Portfolio/"
+  linkedin: "https://www.linkedin.com/in/abdelkreem-frahat-160g/"
+  github: "https://github.com/abdelkree5"
+  portfolio: "https://abdelkree5.github.io/my-Portfolio/"
 
 data:
   path: "data/credit_data.csv"

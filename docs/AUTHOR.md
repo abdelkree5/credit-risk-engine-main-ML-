@@ -4,13 +4,13 @@
 
 ## 👤 Developer Profile
 
-### **Mostafa Ali Mohamed Elsharqawi**
+### **Abdelkreem Ali Mohamed Frahat**
 
 **Professional Summary**
 
 - 🎓 ML Engineer & Data Scientist
 - 📍 Based in Menoufia, Egypt
-- 📧 mostafa.elsharqawi@gmail.com
+- 📧 Abdelkreem.Frahat@gmail.com
 - 📱 +201276913999
 
 ---
@@ -21,9 +21,9 @@
 
 | Platform     | Link                                                                                 | Username              |
 | ------------ | ------------------------------------------------------------------------------------ | --------------------- |
-| 💼 LinkedIn  | [Mostafa Ali Mohamed Elsharqawi](https://www.linkedin.com/in/mostafa-ali-66b3a7352/) | mostafa-ali-66b3a7352 |
-| 🐙 GitHub    | [@mstfyshrqawy520-alt](https://github.com/mstfyshrqawy520-alt)                       | mstfyshrqawy520-alt   |
-| 🌐 Portfolio | [My Portfolio](https://mstfyshrqawy520-alt.github.io/my-Portfolio/)                  | Portfolio Website     |
+| 💼 LinkedIn  | [Abdelkreem Ali Mohamed Frahat](https://www.linkedin.com/in/abdelkreem-frahat-160g/) | Abdelkreem-ali-66b3a7352 |
+| 🐙 GitHub    | [@abdelkree5](https://github.com/abdelkree5)                       | abdelkree5   |
+| 🌐 Portfolio | [My Portfolio](https://abdelkree5.github.io/my-Portfolio/)                  | Portfolio Website     |
 
 ---
 
@@ -248,15 +248,15 @@ risk_score, explanation = predictor.predict({
 
 **For Project Inquiries:**
 
-- 📧 Email: mostafa.elsharqawi@gmail.com
+- 📧 Email: Abdelkreem.Frahat@gmail.com
 - 📱 Phone: +201276913999
 - 📍 Location: Menoufia, Egypt
 
 **Professional Networks:**
 
-- 💼 LinkedIn: [@mostafa-ali-66b3a7352](https://www.linkedin.com/in/mostafa-ali-66b3a7352/)
-- 🐙 GitHub: [@mstfyshrqawy520-alt](https://github.com/mstfyshrqawy520-alt)
-- 🌐 Portfolio: [Personal Website](https://mstfyshrqawy520-alt.github.io/my-Portfolio/)
+- 💼 LinkedIn: [@Abdelkreem-ali-66b3a7352](https://www.linkedin.com/in/abdelkreem-frahat-160g/)
+- 🐙 GitHub: [@abdelkree5](https://github.com/abdelkree5)
+- 🌐 Portfolio: [Personal Website](https://abdelkree5.github.io/my-Portfolio/)
 
 **Support Response Time:**
 
@@ -291,7 +291,7 @@ risk_score, explanation = predictor.predict({
 ## 📄 License & Attribution
 
 **License**: MIT License  
-**Author**: Mostafa Ali Mohamed Elsharqawi  
+**Author**: Abdelkreem Ali Mohamed Frahat  
 **Copyright**: © 2026 All Rights Reserved
 
 **Citation**:
@@ -299,15 +299,15 @@ risk_score, explanation = predictor.predict({
 ```
 @project{credit_risk_engine_2026,
   title={AI-Powered Credit Risk Scoring Engine},
-  author={Elsharqawi, Mostafa Ali Mohamed},
+  author={Frahat, Abdelkreem Ali Mohamed},
   year={2026},
-  url={https://github.com/mstfyshrqawy520-alt/credit-risk-engine}
+  url={https://github.com/abdelkree5/credit-risk-engine}
 }
 ```
 
 ---
 
-**Developed with ❤️ and ☕ by Mostafa Ali Mohamed Elsharqawi**  
+**Developed with ❤️ and ☕ by Abdelkreem Ali Mohamed Frahat**  
 **Making financial decisions fairer, faster, and more transparent.**
 
 ---

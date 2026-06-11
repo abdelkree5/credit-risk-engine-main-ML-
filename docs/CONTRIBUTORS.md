@@ -2,19 +2,19 @@
 
 ## 🚀 Lead Developer
 
-### **Mostafa Ali Mohamed Elsharqawi**
+### **Abdelkreem Ali Mohamed Frahat**
 
 **About**
 
 - 📍 **Location**: Menoufia, Egypt
-- 📧 **Email**: mostafa.elsharqawi@gmail.com
+- 📧 **Email**: Abdelkreem.Frahat@gmail.com
 - 📱 **Phone**: +201276913999
 
 **Professional Links**
 
-- 💼 LinkedIn: [Mostafa Ali Mohamed Elsharqawi](https://www.linkedin.com/in/mostafa-ali-66b3a7352/)
-- 🐙 GitHub: [@mstfyshrqawy520-alt](https://github.com/mstfyshrqawy520-alt)
-- 🌐 Portfolio: [My Portfolio](https://mstfyshrqawy520-alt.github.io/my-Portfolio/)
+- 💼 LinkedIn: [Abdelkreem Ali Mohamed Frahat](https://www.linkedin.com/in/abdelkreem-frahat-160g/)
+- 🐙 GitHub: [@abdelkree5](https://github.com/abdelkree5)
+- 🌐 Portfolio: [My Portfolio](https://abdelkree5.github.io/my-Portfolio/)
 
 **Expertise & Specializations**
 
@@ -92,11 +92,11 @@ This project implements a **production-grade machine learning system** for real-
 
 For inquiries about this project:
 
-- **Email**: mostafa.elsharqawi@gmail.com
+- **Email**: Abdelkreem.Frahat@gmail.com
 - **Phone**: +201276913999
-- **LinkedIn**: [Connect on LinkedIn](https://www.linkedin.com/in/mostafa-ali-66b3a7352/)
-- **GitHub Issues**: [Report a bug](https://github.com/mstfyshrqawy520-alt/credit-risk-engine/issues)
+- **LinkedIn**: [Connect on LinkedIn](https://www.linkedin.com/in/abdelkreem-frahat-160g/)
+- **GitHub Issues**: [Report a bug](https://github.com/abdelkree5/credit-risk-engine/issues)
 
 ---
 
-**© 2026 Mostafa Ali Mohamed Elsharqawi | All Rights Reserved**
+**© 2026 Abdelkreem Ali Mohamed Frahat | All Rights Reserved**

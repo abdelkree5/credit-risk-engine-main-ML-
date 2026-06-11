@@ -15,13 +15,13 @@ The **Credit Risk Scoring Engine** is a production-ready machine learning system
 | **Project Name** | AI-Powered Credit Risk Scoring Engine               |
 | **Version**      | 1.0.0                                               |
 | **Status**       | Production Ready                                    |
-| **Developer**    | Mostafa Ali Mohamed Elsharqawi                      |
+| **Developer**    | Abdelkreem Ali Mohamed Frahat                      |
 | **Location**     | Menoufia, Egypt                                     |
-| **Email**        | mostafa.elsharqawi@gmail.com                        |
+| **Email**        | Abdelkreem.Frahat@gmail.com                        |
 | **Phone**        | +201276913999                                       |
-| **GitHub**       | https://github.com/mstfyshrqawy520-alt              |
-| **LinkedIn**     | https://www.linkedin.com/in/mostafa-ali-66b3a7352/  |
-| **Portfolio**    | https://mstfyshrqawy520-alt.github.io/my-Portfolio/ |
+| **GitHub**       | https://github.com/abdelkree5              |
+| **LinkedIn**     | https://www.linkedin.com/in/abdelkreem-frahat-160g/  |
+| **Portfolio**    | https://abdelkree5.github.io/my-Portfolio/ |
 | **Repository**   | credit-risk-engine                                  |
 | **License**      | MIT                                                 |
 
@@ -206,7 +206,7 @@ credit-risk-engine/
 
 ```bash
 # Clone repository
-git clone https://github.com/mstfyshrqawy520-alt/credit-risk-engine.git
+git clone https://github.com/abdelkree5/credit-risk-engine.git
 cd credit-risk-engine
 
 # Create virtual environment
@@ -241,14 +241,14 @@ docker-compose up --build
 
 ## 📞 Contact Information
 
-### Developer: Mostafa Ali Mohamed Elsharqawi
+### Developer: Abdelkreem Ali Mohamed Frahat
 
-- **Email**: mostafa.elsharqawi@gmail.com
+- **Email**: Abdelkreem.Frahat@gmail.com
 - **Phone**: +201276913999
 - **Location**: Menoufia, Egypt
-- **LinkedIn**: https://www.linkedin.com/in/mostafa-ali-66b3a7352/
-- **GitHub**: https://github.com/mstfyshrqawy520-alt
-- **Portfolio**: https://mstfyshrqawy520-alt.github.io/my-Portfolio/
+- **LinkedIn**: https://www.linkedin.com/in/abdelkreem-frahat-160g/
+- **GitHub**: https://github.com/abdelkree5
+- **Portfolio**: https://abdelkree5.github.io/my-Portfolio/
 
 ---
 
@@ -258,4 +258,4 @@ MIT License - Free to use for educational and commercial purposes with attributi
 
 ---
 
-**© 2026 Mostafa Ali Mohamed Elsharqawi | All Rights Reserved**
+**© 2026 Abdelkreem Ali Mohamed Frahat | All Rights Reserved**
